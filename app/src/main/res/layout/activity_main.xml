@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the world of Android Development!!"
+       android:layout_centerInParent="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/bg_screen1"
+        android:textSize="28sp"
+        android:layout_marginLeft="30dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/tryAgain"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:text="Try Again.."
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:background="@drawable/bg"/>
+
+</RelativeLayout>
